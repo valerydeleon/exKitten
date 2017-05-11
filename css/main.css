@@ -1,5 +1,4 @@
 body{
-    background-color: black;
     display: flex;
     justify-content: center;
 }
@@ -10,33 +9,41 @@ img{
 
 @media (min-width: 0px) and (max-width: 230px){
     body{
-        background-color: antiquewhite;
+        background-image: url(../img/maxresdefault.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
+    
     .maxWidth1200{
         display: none;
     }
     .maxWidth480{
-        display: block;
+        display: none;
     }
     
     .maxWidth230{
-        display: none;
+        display: block;
+        width: 200px;
     }
 }
 
 @media (min-width: 321px) and (max-width: 480px){
     body{
-        background-color: #b8751c;
+        background-image: url(../img/midnight-conversation_861064.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
+    
     .maxWidth1200{
         display: none;
     }
     .maxWidth480{
-        display: block;
+        display: none;
     }
     
     .maxWidth230{
-        display: none;
+        display: block;
+        width: 321px;
     }
 }
 
@@ -46,12 +53,12 @@ img{
         background-size: cover;
         background-repeat: no-repeat;
     }
-    
     .maxWidth1200{
         display: none;
     }
     .maxWidth480{
         display: block;
+        width: 481px;
     }
     
     .maxWidth230{

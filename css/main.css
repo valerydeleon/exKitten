@@ -27,7 +27,7 @@ img{
     }
 }
 
-@media (min-width: 321px) and (max-width: 480px){
+@media (min-width: 231px) and (max-width: 480px){
     body{
         background-image: url(../img/midnight-conversation_861064.jpg);
         background-size: cover;

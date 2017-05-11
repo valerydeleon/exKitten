@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    align-self: center;
+}
+
+@media (min-width: 0px) and (max-width: 230px){
+    body{
+        background-color: antiquewhite;
+    }
+    .maxWidth1200{
+        display: none;
+    }
+    .maxWidth480{
+        display: block;
+    }
+    
+    .maxWidth230{
+        display: none;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    body{
+        background-color: #b8751c;
+    }
+    .maxWidth1200{
+        display: none;
+    }
+    .maxWidth480{
+        display: block;
+    }
+    
+    .maxWidth230{
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    body{
+        background-image: url(../img/dawn.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .maxWidth1200{
+        display: none;
+    }
+    .maxWidth480{
+        display: block;
+    }
+    
+    .maxWidth230{
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+    body{
+        background-image: url(../img/dawn.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .maxWidth1200{
+        display: block;
+    }
+    .maxWidth480{
+        display: none;
+    }
+    
+    .maxWidth230{
+        display: none;
+    }
+}
+
+@media (min-width: 1201px) {
+    body{
+        background-image: url(../img/Landscape.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .maxWidth1200{
+        display: block;
+    }
+    .maxWidth480{
+        display: none;
+    }
+    
+    .maxWidth230{
+        display: none;
+    }
+}
